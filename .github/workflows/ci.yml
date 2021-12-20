@@ -9,4 +9,4 @@ jobs:
     steps:
       - name: Pull request
         run: |
-          yarn pr
+          node ./libs/index.js
