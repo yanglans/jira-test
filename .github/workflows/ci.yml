@@ -1,14 +1,12 @@
 name: docs-ci
-
 on:
   push:
     branches:
       - master
-
 jobs: 
   build-docs:
     runs-on: ubuntu-latest
     steps:
       - name: Pull request
         run: |
-          yarn pr
+          npm run pr
