@@ -9,4 +9,4 @@ jobs:
     steps:
       - name: Pull request
         run: |
-          npm run pr
+          yarn pr
