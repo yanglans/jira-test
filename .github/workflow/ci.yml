@@ -1,0 +1,12 @@
+name: docs-ci
+
+on: [push,pull_request]
+
+jobs: 
+  build-docs:
+    runs-on: ubuntu-latest
+    steps:
+
+      #获取Log文件 并更新提交记录创建新的分支 并提交pr
+      - name: Pull request
+        run: pr
