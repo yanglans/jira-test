@@ -8,5 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Pull request
-        run: |
-          node ./libs/index.js
+        run: yarn pr
