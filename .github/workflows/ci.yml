@@ -10,4 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Pull request
-        run: yarn pr
+        run: |
+          yarn pr
