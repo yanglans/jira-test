@@ -9,4 +9,4 @@ jobs:
 
       #获取Log文件 并更新提交记录创建新的分支 并提交pr
       - name: Pull request
-        run: yarn pr
+        run: '/libs/index.js'
